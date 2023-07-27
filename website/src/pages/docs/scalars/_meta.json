@@ -46,7 +46,6 @@
   "safe-int": "SafeInt",
   "time": "Time",
   "time-zone": "TimeZone",
-  "timestamp": "Timestamp",
   "url": "URL",
   "us-currency": "USCurrency",
   "utc-offset": "UTCOffset",

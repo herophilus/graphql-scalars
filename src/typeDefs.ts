@@ -2,7 +2,6 @@ export const BigInt = 'scalar BigInt';
 export const Byte = 'scalar Byte';
 export const Date = 'scalar Date';
 export const Time = 'scalar Time';
-export const Timestamp = 'scalar Timestamp';
 export const TimeZone = 'scalar TimeZone';
 export const DateTime = 'scalar DateTime';
 export const DateTimeISO = 'scalar DateTimeISO';
@@ -74,7 +73,6 @@ export const typeDefs = [
   Time,
   DateTime,
   DateTimeISO,
-  Timestamp,
   TimeZone,
   UtcOffset,
   Duration,

@@ -152,8 +152,6 @@ export type Scalars = {
   SafeInt: number;
   /** A time string at UTC, such as 10:15:30Z, compliant with the `full-time` format outlined in section 5.6 of the RFC 3339profile of the ISO 8601 standard for representation of dates and times using the Gregorian calendar. */
   Time: import('graphql-scalars').TimeTSType;
-  /** The javascript `Date` as integer. Type represents date and time as number of milliseconds from start of UNIX epoch. */
-  Timestamp: Date | string | number;
   /** A field whose value conforms to the standard URL format as specified in RFC3986: https://www.ietf.org/rfc/rfc3986.txt. */
   URL: URL | `${string}://${string}`;
   /** A currency string, such as $21.25 */
@@ -216,7 +214,6 @@ export type Query = {
   rgba?: Maybe<Scalars['RGBA']>;
   safeint?: Maybe<Scalars['SafeInt']>;
   time?: Maybe<Scalars['Time']>;
-  timestamp?: Maybe<Scalars['Timestamp']>;
   unsignedfloat?: Maybe<Scalars['UnsignedFloat']>;
   unsignedint?: Maybe<Scalars['UnsignedInt']>;
   url?: Maybe<Scalars['URL']>;
